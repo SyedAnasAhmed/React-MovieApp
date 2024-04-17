@@ -1,6 +1,5 @@
-import { Heart } from 'lucide-react'
 import React from 'react'
-import { ButtonDemo } from './Button'
+
 
 export function CardOne(props) {
   return (
@@ -16,10 +15,9 @@ export function CardOne(props) {
         <p className="mt-2 text-sm text-gray-300">
           {props.desc}
         </p>
-        {/* <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+        <button className="mt-2 inline-flex bg-gray-200 text-black  cursor-pointer items-center text-sm font-semibold text-white">
            Add to favorites 
-        </button> */}
-        <ButtonDemo />
+        </button>
       </div>
     </div>
   )
