@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { CardOne } from './Card'
-import { Navbar } from './Navbar'
+    
 
 function Movies() {
 

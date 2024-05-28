@@ -1,12 +1,12 @@
 import React from 'react'
 import Movies from './Components/Movies'
-import { Navbar } from './Components/Navbar'
+// import { NavbarDark } from './Components/Navbar'
 
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      {/* <NavbarDark /> */}
       <Movies/>
     </>
   )
